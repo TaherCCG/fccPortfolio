@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my porfolio">
+    <meta name="description" content="My 1st attempt at building a site using HTML and CSS only">
+    <meta name="description" content="HTML CSS Portfolio Page">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <!-- NAVBAR  -->
+    <nav id="navbar" class="navbar">
+        <ul class="menulist">
+            <li><a href="#welcome-section">Welcome</a></li>
+            <li><a href="#about">About</a></li>
+            <!--  <li><a href="#experiance">Experiance</a></li>
+            <li><a href="#work">Work</a></li>                         Need to add these 2 sections-->
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- /END NAVBAR-->
+    <!-- Welcome Section  -->
+    <section id="welcome-section" class="welcome">
+        <h1>Hi, I am <b>Taher</b></h1>
+        <p>IT Support Specialist & self-taught Software Developer</p>
+    </section>
+    <!-- /END Welcome Section  -->
+    <!-- About-me Section -->
+    <section class="about-me" id="about">
+        <h2 class="about-title">Who I am</h2>
+        <p class="about-subtitle">Hey all, I am Taher, I am IT Support Specialist and a self-taught Software Developer.
+        </p>
+        <div class="about-box">
+            <p> I have over 25 years of experience in computing field which includes Hardware, Software, Programming,
+                Networking, Security, and currently I am learning AWS Cloud Practitioner working towards AWS Solutions Architect.
+            </p><br>
+            <p>
+                I have developed in-house applications for few local companies/ stores which included a Retail Clothing
+                Store, A vehicle Service Garage and a Video (VHS) Rental store using VBA in MS access. I have also
+                developed software to assist me as an IT Support Specialist to keep track of issues/tickets and
+                staying up to date with customer contracts.
+                Programming languages I know are BBC/GW Basic, Pascal, COBOL, VB, VBA, DBA, PHP, SQL, HTML, CSS,
+                JavaScript and I am currently learning Python. Once I am comfortable with Python, I will continue to
+                learn C++.
+            </p><br>
+            <p>
+                As an IT Support Specialist, I have experience in custom building PC’s, supporting, managing,
+                maintaining, and troubleshooting desktop computing environments. I can install/remove/configure hardware
+                and troubleshoot to component level. I can repair Motherboards/Graphics Cards/Gaming Console PCBs to
+                component level by BGA rework procedure. I have good knowledge of common BIOS/CMOS setting to
+                troubleshoot problems or to configure boot order, security, hardware setting, general date/time
+                configuration, flash update BIOS and overclock CPU’s safely on gaming PC’s
+            </p> <br>
+             <p>
+                I have broad knowledge of installing, maintaining, troubleshooting and configuring Windows & Linux
+                (distros) Operating Systems along with software packages for each platforms. I can set up Virtual
+                Machines, dual boot OS’s, Partition HDD, familiar with RAID (levels/categories), and configure backups
+                onsite or offsite. I am also familiar with setting up network servers for LAN, WAN, configuring Virtual
+                and dedicated Cloud servers. 
+            </p><br> 
+
+        </div>
+    </section>
+    <!-- /END About-me Section-->
+    <!-- Project Section  -->
+    <section class="project-section" id="projects">
+        <h2 class="project-section-title">These are some of my projects</h2>
+        <p class="project-section-para">These are some of the web projects I have worked on so far. I will be adding more
+            and updating the current projects as I progress. <br>
+            You can live preview my projects or you can view the code on github. <br></p>
+        <p class="project-section-para1">Below are some of the projects I am working on. I will be improving the
+            projects below as I work on them.</p>
+        <div class="projects-box">
+            <a href="https://taherccg.github.io/fccSurveyForm/" target="_blank" class="projects project-tile">
+                <img src="./images/fccSurveyForm.png" alt="Survey Form project" class="project-img" />
+                <p class="project-title">Survey Form</p>
+            </a>
+            <a href="https://taherccg.github.io/fccTributePage/" target="_blank" class="projects project-tile">
+                <img src="./images/fccTributePage.png" alt="Tribute Page" class="project-img" />
+                <p class="project-title">Tribute Page</p>
+            </a>
+            <a href="https://taherccg.github.io/fccTechnicalDocPage/" target="_blank"
+                class="projects project-tile">
+                <img src="./images/fccTechnicalDocPage.png" alt="Technical Document Page" class="project-img" />
+                <p class="project-title">JS Documentation</p>
+            </a>
+            <a href="https://taherccg.github.io/fccProductLandingPage/" target="_blank"
+                class="projects project-tile">
+                <img src="./images/fccProductLandingPagel.png" alt="Product Landing Page" class="project-img" />
+                <p class="project-title">Product Landing Page</p>
+            </a>
+        </div>
+        <a href="https://github.com/TaherCCG" target="_blank" class="btn btn-show-all">Show More ></a>
+    </section>
+    <!-- /END Project Section  -->
+    <!-- Contact Section  -->
+    <section class="contact-section" id="contact">
+        <div class="contact-box">
+            <h2 class="contact-section-title">Lets Work together</h2>
+            <p>contact me or leave a feedback...</p>
+            <a type="email" href="mailto:trigzi.ccg@gmail.com" class="emailme">...Email Me</a>
+        </div>
+        <div class="contact-links-box">
+            <a href="https://github.com/TaherCCG" id="profile-link" target="_blank"> GitHub </a>
+            <!--  <a href=" codepen id " id="profile-link2" target="_blank" > CodePen </a>    currently disabled neeed to update codehub-->
+            <a href="https://tahermahmood.dev" id="profile-link3" target="_blank"> Website </a>
+        </div>
+    </section>
+    <!-- /END Contact Section  -->
+    <!-- Footer Start-->
+    <footer>
+        <br />
+        <div class="footer-box">
+            <h4>Visit my <a class="footer-link" target="_blank" href="https://github.com/TaherCCG">GitHub</a> to see my
+                other projects.
+            </h4>
+            <!--
+            <h4> My GitHub Pages <a class="footer-link" target="_blank"
+                    href="https://trigzi.github.io/">trigzi.github.io</a>.     Disabled needs update
+                </h4>  -->
+               
+            <h4>My main project, my <a class="footer-link" target="_blank" href="https://tahermahmood.dev">Portfolio</a> Website.
+            </h4>
+            <br>
+        </div>
+    </footer>
+    <!-- Footer END-->
+</body>
+
+</html>
